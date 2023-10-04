@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Helmer - Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+
+</head>
+<header name="header">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top d-flex barColour">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <h2>Kyle Helmer</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <div class="d-flex navibar">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#aboutMe"
+                                onclick=" event.preventDefault(); scrollToSection('aboutMe')" ;>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#experience"
+                                onclick="event.preventDefault(); scrollToSection('experience')" ;>Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#projects"
+                                onclick="event.preventDefault(); scrollToSection('projects')" ;>Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#contact"
+                                onclick="event.preventDefault(); scrollToSection('contact')" ;>Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+
+
+    <!--LANDING-->
+    <div class="container col-xxl-8 px-4 py-5" id="landing">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="../assets/images/me.jpg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Me"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hey there! I'm Kyle Helmer</h1>
+                <h2>Aspiring Software Developer</h2>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT -->
+    <div id="aboutMe">
+
+        <div class="container my-5 ">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg aboutContainer">
+                <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">About Me</h1>
+                    <p class="lead">Hello! I'm Kyle Helmer, a dedicated full stack developer with a inclination towards
+                        backend development. Graduated from SAIT in 2023 with a 3.7 GPA, I am egaer to dive into the
+                        dynamic
+                        world of software devlopment. My academic journey not only equipped me with a solid grasp of
+                        Object-Oriented Programming (OOP) principles but also exposed me to the software devlopment life
+                        cycle, along with the methodologies that fit into that cycle.</p>
+                    <p class="lead">
+
+                        This blend of theoretical knowledge and practical exposure has prepared me to navigate the
+                        challenges of modern software development. While my heart lies in backend development and the
+                        logical structuring of applications, I acknowledge the importance of frontend technologies in
+                        crafting an engaging user experience. I'm no stranger to frontend, and I enjoy
+                        creating seamless and visually appealing interfaces that bring projects to life.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-5" id="experience">
+        <h2 class="pb-2 border-bottom ">Experience</h2>
+        <h4>Heres what I know how to do in the world of software devoplemnt</h4>
+        <div class="col-12">
+
+
+            <div class="row my-4">
+
+
+                <div class="col">
+                    <div class="icon-holder rounded-3 ">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/css.png" alt="CSS" class="icon-img">
+                            <figcaption>CSS</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class="icons">
+                            <img src="../assets/images/icons/html-5.png" alt="HTML-5" class="icon-img">
+                            <figcaption>HTML</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/bootstrap.png" alt="Bootstrap" class="icon-img">
+                            <figcaption>Bootstrap</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/js.png" alt="JavaScript" class="icon-img">
+                            <figcaption>JavaScript</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-4">
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/java.png" alt="Java" class="icon-img">
+                            <figcaption>Java</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/c.png" alt="C" class="icon-img">
+                            <figcaption>C</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class="icons">
+                            <img src="../assets/images/icons/oracle.png" alt="Oracle" class="icon-img pb-5">
+                            <figcaption>Oracle</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/mysql.png" alt="MySql" class="icon-img">
+                            <figcaption>MySql</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="row my-4">
+
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/netbeans.png" alt="NetBeans IDE" class="icon-img">
+                            <figcaption>NetBeans</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class="icons">
+                            <img src="../assets/images/icons/eclipse.png" alt="Eclipse" class="icon-img">
+                            <figcaption>Eclipse</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class=" icons">
+                            <img src="../assets/images/icons/vscode.png" alt="VScode" class="icon-img">
+                            <figcaption>VScode</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="icon-holder rounded-3">
+                        <figure class="icons">
+                            <img src="../assets/images/icons/linux.png" alt="Linux" class="icon-img">
+                            <figcaption>Linux</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="row my-4">
+
+                    <div class="col">
+                        <div class="icon-holder rounded-3">
+                            <figure class=" icons">
+                                <img src="../assets/images/icons/github.png" alt="Image 2" class="icon-img">
+                                <figcaption>GitHub</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--PROJECTS-->
+    <div class="container my-5" id="projects">
+        <h2 class="pb-2 border-bottom">Projects</h2>
+
+        <div class="row ">
+            <div class="col">
+                <div class="card h-100 overflow-hidden">
+                    <img src="../assets/images/taxs.jpg" class="card-img-top"
+                        alt="TaxAPi">
+                    <div class="card-body">
+                        <h5 class="card-title">Tax Rate API</h5>
+                        <p class="card-text">Capstone project that I created with the help of my 3 other group
+                            members
+                            during my time at SAIT. Focusing on tax rates in both Canada and the USA, we developed
+                            an innovative solution designed to seamlessly process HTTP requests containing essential
+                            Postal or Zip codes. Upon receiving a request, our system meticulously analyzes the
+                            provided location and swiftly crafts a tailored response, delivering comprehensive
+                            details on the applicable tax rates for that specific area. </p>
+
+                    </div>
+                    <div class="card-footer row">
+                        <div class="col-8 project-text">
+                            <p>Java/HTML5/CSS/MySql/JS</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="https://github.com/HelmerK/TaxRateApi" class="btn btn-dark">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 overflow-hidden">
+                    <img src="../assets/images/typewriter.jpg" class="card-img-top"
+                        alt="Script Writer">
+                    <div class="card-body">
+                        <h5 class="card-title">Tax Rate DB Script Writer</h5>
+                        <p class="card-text">With a substantial dataset comprising over 1,700 entries for Canada and
+                            an impressive 42,000 entries for the US, the task of manually creating the necessary
+                            database entries seemed daunting. To streamline and optimize this process, I proactively
+                            sought out existing data files online, meticulously curated with the required
+                            information. To expedite the database population, I developed an efficient Java program
+                            tailored to generate the essential lines of text automatically. Saving significant time
+                            and effort.</p>
+
+                    </div>
+                    <div class="card-footer row">
+                        <div class="col-8 project-text">
+                            <p>Java</p>
+                        </div>
+                        <div class="col-4 ">
+                            <a href="https://github.com/HelmerK/TaxRateDBInsertWriter" class="btn btn-dark">Check it
+                                out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 overflow-hidden">
+                    <img src="../assets/images/city.jpg" class="card-img-top"
+                        alt="Springboot Tax Api">
+                    <div class="card-body">
+                        <h5 class="card-title">Springboot Tax Rate API</h5>
+                        <p class="card-text">After successfully implementing the original Tax Rate API,
+                            I recognized an opportunity to enhance the project by embracing more modern
+                            technologies. I felt that the initial stack we used was somewhat outdated compared to
+                            the cutting-edge solutions available today. In response, I decided to migrate our
+                            existing project to a Spring application with Hibernate as the ORM, leveraging its
+                            robust features and aligning
+                            with contemporary development standards. Increasing the scalability and efficiency of
+                            the
+                            application. </p>
+
+                    </div>
+                    <div class="card-footer row">
+                        <div class="col-8 project-text">
+                            <p>Java Springboot/Hibernate/MySql</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="https://github.com/HelmerK/SpringBootTaxRateAPI" class="btn btn-dark">Check it
+                                out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-4">
+                <div class="card h-100 overflow-hidden">
+                    <img src="../assets/images/site.png" class="card-img-top" alt="Personal Portfolio">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Portfolio</h5>
+                        <p class="card-text">My personal portfolio, a demonstration of my web development
+                            skills using HTML, CSS, Bootstrap, and JavaScript. It's my first venture into Bootstrap,
+                            adding a touch of modern design to showcase my projects and abilities. Take a moment to
+                            browse through my work and explore the creations I've built with passion and dedication </p>
+
+                    </div>
+                    <div class="card-footer row">
+                        <div class="col-8 project-text">
+                            <p>Java/HTML5/CSS/BootStrap/JS</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="btn btn-dark" onclick=" event.preventDefault(); yourHere();">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container btm" id="contact">
+        <h2 class="pb-2 border-bottom">Contact Me</h2>
+        <p>Have any opportunities or questions feel free to contact me below!</p>
+        <form id="contactForm" action="https://formspree.io/helmerkyle5@gmail.com" method="POST">
+            <div>
+                <label for="nameContact" class="form-label">Full Name: </label>
+                <input type="text" class="form-control" id="nameContact" name="name" required>
+            </div>
+            <div>
+                <label for="emailContact" class="form-label">Email Address: </label>
+                <input type="email" class="form-control" id="emailContact" name="email" required>
+            </div>
+            <div>
+                <label for="subjectContact" class="form-label">Subject: </label>
+                <input type="text" class="form-control" id="subjectContact" name="subject" required>
+            </div>
+            <div>
+                <label for="contentContact" class="form-label">Content: </label>
+                <textarea class="form-control" id="contentContact" name="content"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark mt-3 float-end">Submit</button>
+        </form>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../assets/scripts/portfolio.js"></script>
+
+
+</html>
