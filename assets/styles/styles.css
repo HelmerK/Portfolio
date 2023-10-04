@@ -2,6 +2,10 @@
 .barColour {
   background-color: #B9D7EA;
 }
+
+.hiddenBurger{
+  background-color: black;
+}
 /* Will change the font in the navbar */
 .navbar-brand {
   color: black;
