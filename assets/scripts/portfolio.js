@@ -1,26 +1,6 @@
-// Dealing with the sending the contact form out to my email
-document.getElementById("contactForm").addEventListener("submit", function (event) {
-  event.preventDefault();
-
-  const formData = new FormData(this);
-
-  fetch(this.getAttribute("action"), {
-    method: "POST",
-    headers: {
-      Accept: "application/json",
-    },
-    body: formData,
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      alert("Form submitted successfully!");
-      document.getElementById("contactForm").reset();
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-      alert("There was an error submitting the form.");
-    });
-});
+function sent() {
+  alert("I look forward to hearing from you!");
+}
 
 /*Ensuring my nav links will lead to the correct sections.
 Takes the nav bar into account to calculate the correct position */
@@ -39,5 +19,5 @@ function scrollToSection(sectionId) {
 }
 
 function yourHere(){
-  alert("You're already here silly!");
+  alert("You're already here!");
 }
